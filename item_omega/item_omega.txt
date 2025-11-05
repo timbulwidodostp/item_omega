@@ -4,6 +4,8 @@
 # McDonald's Omega for Items or Scales Use item_omega (performance) With (In) R Software
 install.packages("performance")
 install.packages("parameters")
+install.packages("psych")
+library("psych")
 library("performance")
 library("parameters")
 item_omega = read.csv("https://raw.githubusercontent.com/timbulwidodostp/item_omega/main/item_omega/item_omega.csv",sep = ";")
@@ -17,4 +19,5 @@ parameters::model_parameters(item_omega)
 # Olah Data Semarang
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
+
 # Finished
