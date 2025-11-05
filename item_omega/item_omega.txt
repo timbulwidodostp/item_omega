@@ -1,0 +1,20 @@
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# McDonald's Omega for Items or Scales Use item_omega (performance) With (In) R Software
+install.packages("performance")
+install.packages("parameters")
+library("performance")
+library("parameters")
+item_omega = read.csv("https://raw.githubusercontent.com/timbulwidodostp/item_omega/main/item_omega/item_omega.csv",sep = ";")
+# Estimation McDonald's Omega for Items or Scales Use item_omega (performance) With (In) R Software
+item_omega <- item_omega[2:8]
+item_omega <- item_omega(item_omega, n = 2)
+item_omega
+summary(item_omega)
+parameters::model_parameters(item_omega)
+# McDonald's Omega for Items or Scales Use item_omega (performance) With (In) R Software
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Finished
