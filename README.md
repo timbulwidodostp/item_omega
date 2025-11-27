@@ -1,6 +1,8 @@
 # item_omega
 McDonald's Omega for Items or Scales Use item_omega (performance) With (In) R Software
 
+https://www.youtube.com/watch?v=sVks3FV7D7Y
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
